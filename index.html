@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,12 +8,17 @@
   <link rel="stylesheet" href="style.css">
   <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 </head>
-
 <body>
   <div class="container">
     <div class="header">
       <span>Cadastro de Médicos</span>
       <button onclick="openModal()" id="new">Adicionar</i></button>
+
+      <!-- Campo de busca de CRM -->
+      <div class="search-container">
+        <input type="text" id="search-crm" placeholder="Digite o CRM para buscar">
+        <button id="btnBuscar">Buscar Médico</button>
+      </div>
     </div>
 
     <div class="divTable">
@@ -48,9 +52,7 @@
         </form>
       </div>
     </div>
-
   </div>
   <script src="script.js"></script>
 </body>
-
 </html>

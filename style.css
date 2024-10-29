@@ -225,3 +225,31 @@ td button i {
 td button i:first-child {
   margin-right: 10px;
 }
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #search-crm {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 200px;
+  }
+  
+  #btnBuscar {
+    padding: 8px 12px;
+    border: none;
+    background-color: rgb(47, 116, 44);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #btnBuscar:hover {
+    background-color: rgb(40, 100, 40);
+  }
+  
