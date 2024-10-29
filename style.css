@@ -232,12 +232,12 @@ td button i:first-child {
     gap: 10px;
   }
   
-  #search-crm {
+  #searchInput {
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 14px;
-    width: 265px;
+    width: 230px;
   }
   
   #btnBuscar {

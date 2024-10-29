@@ -38,21 +38,27 @@
     </div>
 
     <div class="modal-container">
-      <div class="modal">
-        <form>
-          <label for="m-nome">Nome</label>
-          <input id="m-nome" type="text" required />
-  
-          <label for="m-especialidade">Especialidade</label>
-          <input id="m-especialidade" type="text" required />
-  
-          <label for="m-crm">CRM</label>
-          <input id="m-crm" type="number" required />
-          <button id="btnSalvar">Salvar</button>
-        </form>
+        <div class="modal">
+          <form>
+            <label for="m-nome">Nome</label>
+            <input id="m-nome" type="text" required />
+      
+            <label for="m-especialidade">Especialidade</label>
+            <select id="m-especialidade" required>
+              <option value="">Selecione uma especialidade</option>
+              <option value="Ortopedista">Ortopedista</option>
+              <option value="Cardiologista">Cardiologista</option>
+              <option value="Pediatra">Pediatra</option>
+              <option value="Odontologista">Odontologista</option>
+              <option value="Oftalmologista">Oftalmologista</option>
+            </select>
+      
+            <label for="m-crm">CRM</label>
+            <input id="m-crm" type="number" required />
+            <button id="btnSalvar">Salvar</button>
+          </form>
+        </div>
       </div>
-    </div>
-  </div>
   <script src="script.js"></script>
 </body>
 </html>
